@@ -20,7 +20,6 @@ A lot of code was reused, but you will notice it is also condensed and divided i
 This version is a lot shorter than Legend of Cat, but I belive it is more structured and easier to follow. Also, I didn't have as much time to write in a complex story. I'm sure there are bugs somewhere but I'm out of time to try and break this game anymore, so just spray Raid on your computer and hope for the best.
 ***
 ## New classes:
-***
 Character:
 This is the super class for both Npc and Gannon. It contains all of the variables(health, name, etc...), and methods(attack, takeDamage, etc...) shared by the subclasses. It also contains all weapon objects the characters use.
 
