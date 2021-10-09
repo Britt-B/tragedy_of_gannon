@@ -23,10 +23,13 @@ This version is a lot shorter than Legend of Cat, but I belive it is more struct
 ***
 Character:
 This is the super class for both Npc and Gannon. It contains all of the variables(health, name, etc...), and methods(attack, takeDamage, etc...) shared by the subclasses. It also contains all weapon objects the characters use.
+
 Gannon (formerly Hero):
 Gannon has a method to hunt and gain health. Hunting in the forest yields higher rewards. The max health allowed is 250 to keep the final fight balanced.
+
 Room: 
 Not much changed here, but a room has-an Npc character object (or two).
+
 Dialogue: 
 Each character has-a dialogue with a speak method, which varies depending on the room they are in. This takes a lot of clutter away from the actions class.
 ***
